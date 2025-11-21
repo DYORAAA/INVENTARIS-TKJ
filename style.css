@@ -392,3 +392,18 @@ body.login-page {
   border: 2px solid rgba(0,0,0,0.02);
 }
 
+/* Styling khusus tombol "Kembalikan" tanpa mengubah file JS */
+
+/* Seleksi tombol yang teksnya 'Kembalikan' */
+button.aksi-btn:last-child {
+    background: linear-gradient(90deg, #4facfe, #00f2fe) !important;
+    color: #04101a !important;
+    font-weight: 800;
+    border: 1px solid rgba(255,255,255,0.15) !important;
+    box-shadow: 0 8px 20px rgba(0, 242, 254, 0.25) !important;
+}
+
+button.aksi-btn:last-child:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(0, 242, 254, 0.35) !important;
+}
